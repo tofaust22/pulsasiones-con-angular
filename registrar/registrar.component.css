@@ -1,0 +1,70 @@
+header{
+    text-align: center;
+    background-color: aquamarine;
+    border-style: groove;
+    color: black;
+}
+
+nav{
+    float: left;
+    width: 15%;
+    height: 700px; 
+    background-color: rgb(110, 102, 112);
+    border-style: ridge;
+    display: block;
+  }
+
+  #imagen{
+    margin-top: 3%;
+    margin-left: 30%;
+}
+
+  article{
+    float: left;
+    margin-left: 5%;
+}
+
+label{
+    margin-left: 65px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+imput{
+    margin-left: 50% ;
+}
+#idLabel{
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+  
+  td, th {
+    border: 1px solid #1f201e;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  #divConsulta{
+    float: left;
+    margin-left: 10%;
+}
+
+
+.menuv a{
+    text-decoration: none;
+    padding-top: 10% ;
+    padding-bottom: 10% ;
+    display: block;
+    color: black;
+    text-align: center;
+    }
+
+ .menuv a:hover{
+        background-color:aquamarine;
+        color: rgb(0, 0, 0)
+    }

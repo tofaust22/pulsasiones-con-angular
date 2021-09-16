@@ -1,0 +1,25 @@
+<table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">identificacion</th>
+        <th scope="col">nombre</th>
+        <th scope="col">edad</th>
+        <th scope="col">genero</th>
+        <th scope="col">pulsacion</th>
+
+      </tr>
+    </thead>
+    <tbody *ngFor="let persona of personas;index as i">
+      <tr>
+        <th scope="row">{{i+1}}</th>
+        <td>{{persona.identificacion}}</td>
+        <td>{{persona.nombre}}</td>
+        <td>{{persona.edad}}</td>
+        <td>{{persona.genero}}</td>
+        <td>{{persona.pulsacion}}</td>
+       
+        
+      </tr>
+    </tbody>
+  </table>
